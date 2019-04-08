@@ -2,4 +2,4 @@
 /**
  * Performa a logical negation
  */
-export default expr => source => !expr(source);
+export default expr => row => !expr(row);
